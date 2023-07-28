@@ -33,7 +33,7 @@ class CreditsState extends MusicBeatState
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var iconArray:Array<AttachedSprite> = [];
-	private var creditsStuff:Array<Array<String>> = [];
+	private var creditsStuff:Array<String> = [];
 
 	var bg:FlxSprite;
 	var descText:FlxText;
@@ -62,7 +62,7 @@ class CreditsState extends MusicBeatState
 		for (mod in Mods.parseList().enabled) pushModCreditsToList(mod);
 		#end
 
-		var pisspoop:Array<String> = [
+		var pisspoop:String = [
 			/**
 			 * Name
 			 * Icon name
