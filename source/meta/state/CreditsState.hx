@@ -62,7 +62,7 @@ class CreditsState extends MusicBeatState
 		for (mod in Mods.parseList().enabled) pushModCreditsToList(mod);
 		#end
 
-		var pisspoop:Array<Array<String>> = [
+		var pisspoop:Array<String> = [
 			/**
 			 * Name
 			 * Icon name
@@ -88,7 +88,7 @@ class CreditsState extends MusicBeatState
 				'',
 				'FFFFFF',
 				'vine-boom'
-			]
+			],
 			
 			['Joalor64 Engine Creators'],
 			[
