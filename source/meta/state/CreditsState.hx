@@ -71,6 +71,25 @@ class CreditsState extends MusicBeatState
 			 * BG Color
 			 * Sound
 			**/
+
+			["R-Squad Funkin' Team"],
+			[
+				'BasicallyRichard',
+				'richard',
+				'Main Leader/Did Some Coding.',
+				'https://youtube.com/@BasicallyRichard',
+				'FFE100',
+				'smash-hit-crash'
+			],
+			[
+				'goober_guy7',
+				'gooberguy',
+				'Made Icons for Rolktus',
+				'',
+				'FFFFFF',
+				'vine-boom'
+			]
+			
 			['Joalor64 Engine Creators'],
 			[
 				'Joalor64 YT',
